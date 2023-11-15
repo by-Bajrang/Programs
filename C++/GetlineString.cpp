@@ -5,6 +5,6 @@ int main(){
 
     string str;
     getline(cin,str);
-
     cout<<"You entered : "<<str;
-}
+}   
+ 

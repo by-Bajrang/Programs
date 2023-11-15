@@ -9,43 +9,43 @@ int main()
     switch (day)
     {
     case 1:
-    {
+    
         cout << "monday";
         break;
-    }
+    
     case 2:
-    {
+    
         cout << "tuesday";
         break;
-    }
+    
     case 3:
-    {
+    
         cout << "wednesday";
         break;
-    }
+    
     case 4:
-    {
+    
         cout << "thursday";
         break;
-    }
+    
     case 5:
-    {
+    
         cout << "friday";
-        break; 
-    }
+        break;
+    
     case 6:
-    {
+    
         cout << "saturday";
         break;
-    }
+    
     case 7:
-    {
+    
         cout << "sunday";
         break;
-    }
+    
     default:
-    cout<<"invalid";
+    cout<<"invalid"<<"\n";
     break ;
     }
-    cout<<"\n"<<  "check";
+    cout<<"\n"<< "check";
 }
