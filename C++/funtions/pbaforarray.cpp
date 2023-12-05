@@ -11,7 +11,7 @@ int main()
     int n = 5;
     int arr[n];
     cout<<"enter no.s>>>";
-    for (int i = 0; i < n; i++)
+    for (in t i = 0; i < n; i++)
     {
         cin >> arr[i];
     }
