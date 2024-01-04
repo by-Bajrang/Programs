@@ -5,7 +5,7 @@ time.sleep(5)
 count=0
 
 while count<=100:
-    pyautogui.typewrite("Happy New Year bhai \n")
+    pyautogui.typewrite("or rahul new phone ke party kab de raha hai \n")
     pyautogui.press("Enter")
     count +=1
     time.sleep(0.4)

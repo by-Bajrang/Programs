@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 	// Write your code here
-    cout<<"enter ano.";
+    cout<<"enter a no.>>";
 	int n,rev=0;
 	//int n,rev=0,k=n;//this is galat
 	cin>>n;
