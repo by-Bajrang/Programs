@@ -16,4 +16,4 @@ int main()
     cout<<"enter a no.>>";
     cin>>n;
     fun(n,0);
-}
+} 
