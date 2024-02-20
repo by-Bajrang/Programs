@@ -31,4 +31,4 @@ int main()
         cout << arr[j] << " ";
     }
     return 0;
-}
+}  
