@@ -3,14 +3,15 @@
 
 int main()
 {
-    int i=0,j=1;k=0;
+    int i=0,j=1;
     printf("%d",i);
     printf(" ");
     printf("%d",j);
-    for(k=0;k<=30;k++)
+    for(int k=0;k<=30;k++)
     {
         k=i+j;
-        printf("%d",k);
+        printf(" %d ",k);
+        
         i=j;
         j=k;
 

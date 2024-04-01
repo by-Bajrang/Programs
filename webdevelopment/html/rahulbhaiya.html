@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>imagesize</title>
+    <style>
+      img {
+        width: 100%;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      @media screen and (max-width: 600px) {
+        h1 {
+          color: red;
+          font-size: 20px;
+        }
+      }
+
+      @media screen and (min-width: 100px) and (max-width: 500px) {
+        h1 {
+          color: blue;
+          font-size: 10px;
+        }
+      }
+
+      @media screen and (min-width: 601px) and (max-width: 1024px) {
+        h1 {
+          color: blue;
+          font-size: 40px;
+        }
+      }
+      @media screen and (min-width: 1025px) {
+        h1 {
+          color: green;
+          font-size: 60px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://cdn.pixabay.com/photo/2017/04/24/09/25/horse-2255876_1280.jpg"
+    />
+
+    <h1>Hello World</h1>
+  </body>
+</html>
