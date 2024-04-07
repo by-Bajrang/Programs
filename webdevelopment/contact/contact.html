@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="bj.css" />
+</head>
+
+<body>
+    <h1>kon banega carorpati</h1> 
+    <form action="">
+        <ul>
+            <li>
+                <label for="fn">your first name</label>
+                <input value="" id="fn" type="text" name="first name" value="bajrang" />
+            </li>
+            <br />
+            <li>
+                <label for="sn">your second name</label>
+                <input id="sn" type="text" name="second name" />
+            </li>
+            <br />
+            <li>
+                <label for="no.">enter your age</label>
+                <input id="no." type="number" />
+            </li>
+            <br />
+            <li>
+                <label for="date">Date of birth</label>
+                <input id="date" type="date" />
+            </li>
+            <br />
+            <li>
+                <label for="email">email</label>
+                <input id="email" type="email" />
+            </li>
+            <br />
+            <li>
+                <label for="passw">password</label>
+                <input id="passw" type="password" />
+            </li>
+            <br />
+            <p>enter your tshirt size</p>
+
+            <!--  -->
+
+            <li>
+                <input id="small" name="tshirtsiz" type="radio" value="small" />
+                <label for="small">small</label>
+            </li>
+            <br />
+            <li>
+                <input id="medium" name="tshirtsiz" type="radio" value="medium" />
+                <label for="medium">medium</label>
+            </li>
+            <br />
+            <li>
+                <input id="large" name="tshirtsiz" type="radio" value="large" />
+                <label for="large">large</label>
+            </li>
+
+            <!--  -->
+
+            <br />
+            <li>
+                <label for="color">your favroite color</label>
+                <input type="color" id="color" />
+            </li>
+            <br />
+            <li>
+                <label for="car">choose a car</label>
+                <select name="car" id="car">
+                    <option value="volvo">volvo</option>
+                    <option value="tata">tata</option>
+                    <option value="mahindra">mahindra</option>
+                    <option value="audi">audi</option>
+                </select>
+            </li>
+            <br />
+            <br />
+            <li>
+                <label for="about your self">about your self</label>
+                <textarea name="about your self" id="about your self" cols="30" rows="10"></textarea>
+
+            </li>
+            <br>
+            <br>
+            <li>
+                <label for="reset">reset</label>
+                <input id="reset" type="reset" />
+            </li>
+            <br />
+            <li> 
+                <label for="submit">reset</label>
+                <input id="submit" type="submit" />
+            </li>
+        </ul>
+    </form>
+    <script src="bj.js"></script>
+</body>
+
+</html>
