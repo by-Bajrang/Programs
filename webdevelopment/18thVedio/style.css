@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(20, 131, 94);
+    margin: 0px;
+}
+.Box{
+    border: 50px solid rgb(144, 186, 99);
+     padding: 50px 5px 3px 1px  ;
+     margin: 50px;
+     width: 200px;
+    height: 200px;
+} 

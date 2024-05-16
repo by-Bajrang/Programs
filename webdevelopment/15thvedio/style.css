@@ -1,0 +1,39 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* #first>p{
+    color: rgb(16, 73, 73);
+} */
+body{
+    background-color: rgb(156, 125, 178);
+    font-size: 24px;
+}
+#first,#second{
+    color: rgb(25, 149, 21);
+}
+#first{
+    color: rgb(11, 133, 33);
+}
+  
+.purple{
+    color: rgb(114, 76, 30) !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* for class */
+.highlight{
+    background-color: rgb(238, 238, 50);
+}
+/* nesting of selector */
+#first>p{
+    color: rgb(210, 209, 216);
+}
+.background{
+    background-color: black;
+}
+/* #first>#la>h2{
+    color: blue;
+} */
+p:hover{
+    font-size:50px;
+    font-family: Arial, Helvetica, sans-serif;
+}

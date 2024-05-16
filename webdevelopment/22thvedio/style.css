@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(187, 127, 215);
+}
+.container{
+    width: 400px;
+    height: 500px;
+    color: rgb(19, 14, 96);
+    border: 5px solid rgb(36, 5, 114);
+    padding: 50px;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+
+}
+.block1{
+    overflow: auto;
+}
+.p1{
+    border: 2px solid rgb(61, 188, 210);
+    margin-right: 100px;
+    /* clear: both; */
+}
+.p2{
+    clear: right;
+}  
+.img1{
+    float: right;
+    margin-left: 100px;
+    width: 150px;
+    height: 150px;
+}
+.img2{
+    float:left;
+}
+.photo{
+    /* container */
+    width: 400px;
+    height: 400px;
+   
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    overflow: auto;
+}
+.pic{
+    width: 300px;
+    height: 400px;
+}

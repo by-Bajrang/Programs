@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&family=Permanent+Marker&display=swap');
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh ;
+    background:linear-gradient(to top left ,rgb(141, 24, 152),rgb(44, 194, 187))
+}
+.inner-box{
+    width: 400px;
+    margin: 0px auto ;
+    position: relative;
+    top: 40%;
+    transform:translateY(-50%);
+    padding:20px 40px ;
+    /* background-color: rgb(148, 157, 172); */
+    /* background-color: #ffffff09; */
+    background: linear-gradient(to top left,#ffffff33,#ffffffff);
+    backdrop-filter:blur(8px) ;
+    border-radius: 20px;
+    text-shadow: 2px 2px 7px rgb(115, 220, 194);
+    z-index: 2;
+}
+.signup-header h1{
+    font-size: 2.5rem;
+}
+.signup-header p{
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.34);
+}
+.signup-body{
+    margin: 20px 0px;
+}
+.signup-body p{
+    margin:10px ;    
+}
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+}
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(65, 129, 224);
+    border-radius: 10px;
+    font-size:1rem ;
+    margin: 4px;
+}
+.signup-body p input[type="submit"]{
+    background-color: rgb(46, 120, 205);
+    color: white;
+    cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover{
+    background-color: rgb(26, 67, 114);
+}
+/* or */
+/* #submit:hover{
+    background-color: rgb(26, 67, 114);
+} */
+.signup-footer p{
+    color:rgb(25, 62, 103);
+    text-align: center;
+}
+.signup-footer p a{
+    color:rgb(46, 120, 205) ;
+}
+.circle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background:linear-gradient(to top left,rgb(62, 164, 180),rgb(27, 176, 101))
+    
+}
+.c1{
+    /* position: absolute; */
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    /* position: absolute; */
+    top: 400px;
+    right: 40px;
+}

@@ -1,0 +1,39 @@
+*{
+    /* border: 2px solid rgb(66, 206, 227); */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+/* body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+p{
+    width: 200px;
+    display: inline-block;
+    color: rgb(222, 36, 36);
+    width: 400px;
+} 
+a{
+    display:inline-block;
+    width: 400px;
+}
+ul{
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(121, 103, 186);
+    color: black;
+}
+li{
+    display: inline;
+    font-size: xx-large;
+    padding: 20px;
+    
+}
+/* img{
+    /* display: none; */
+    /* ye photo gayab kaar detha hai */
+    
+li:hover{
+    color: rgb(236, 79, 35);
+    cursor: pointer;
+}

@@ -1,0 +1,61 @@
+*{
+    color: aliceblue;
+    font-size: xx-large;
+}
+body{
+    background-color: rgb(131, 193, 224);
+}
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: silver;
+    margin: 100px;
+    position: relative;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.red{
+    position: relative;
+    background-color: red;
+    right:50px;
+    top:100px;
+    /* right: 100px; */
+    z-index: 1;
+}
+.green{
+    background-color: green;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.blue{
+    background-color: blue;
+    position: fixed;
+    top: 0px;
+    left: 0px ;
+
+}
+.purple{
+    background-color: purple;
+    position: sticky;
+    top: 50px;
+    /* bottom: 50px; */
+    
+}
+.yes{
+  
+    background-color: bisque;
+    z-index: 5;
+}
+.circle{
+   height: 400px;
+    width: 400px;
+}
+.no{
+    background-color: aqua;
+    
+}
