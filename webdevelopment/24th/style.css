@@ -11,7 +11,7 @@
     /* flex-wrap: wrap-reverse; */
     /* gap: 10px; */
     /* row-gap: 10px; */
-    flex-flow: wrap row ;
+    flex-flow: row ;
     /* column-gap: 10px; */
     justify-content: space-around;
     /* justify-content: space-between; */
@@ -28,5 +28,20 @@
     border: 2px solid green;
     /* margin: 10px 0px; */
     width: 100px;
-       
+    /* flex-basis: 25%;
+        */
 } 
+#box-1{
+    /* order: 1;
+    flex-grow: 1;
+    flex-shrink: 2; */
+    /* flex-basis: 200px; */
+}
+#box-3{
+    /* flex-grow: 2; */
+    flex:0 0 200px;
+    align-self: stretch ;
+}
+/* #box-4{
+    flex-shrink: 4;
+} */
