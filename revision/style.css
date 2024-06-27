@@ -1,0 +1,9 @@
+body{
+    background:linear-gradient( to top left,rgb(193, 199, 85),rgb(65, 130, 200));
+    border: 3px solid black;
+    border-radius: 20px;
+   
+}
+h1{
+   color: rgb(131, 8, 20);
+}

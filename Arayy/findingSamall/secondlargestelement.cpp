@@ -15,12 +15,12 @@ int main()
     }
     for(int i=0;i<=5;i++)
     {
-        if(v[i]>max && v[i]!=max)
+        if(v[i]>min && v[i]!=max)
         {
             min=v[i];
         }
     }
-
+    // time complexcitiy =o(2n)
     cout<<max<<endl;
     cout<<min;
 }

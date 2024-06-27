@@ -11,6 +11,11 @@ int main()
     for (int i = 0; i < v.size(); i++)
     {
         sum += v[i];
+        // if(sum==k)
+        // {
+        //     maxlen=max(maxlen,i+1);
+        // }
+        // without bhi kaam karega lekin sum suru par hu tho nahi kam karega
         if (sum == k)
         {
             maxlen = max(maxlen, i + 1);
