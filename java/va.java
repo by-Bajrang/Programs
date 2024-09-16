@@ -1,4 +1,3 @@
-public class variables
 
 class DataTypeDetails
 {

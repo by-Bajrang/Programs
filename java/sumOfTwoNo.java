@@ -6,7 +6,7 @@ public class sumOfTwoNo {
    public static void main(String arg[])
    {
        Scanner sc=new Scanner(System.in);
-
+       Scanner s = new Scanner()
        int x,y;
        System.out.println("enter 2 no.s>>");
        x= sc.nextInt();
