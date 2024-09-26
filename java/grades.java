@@ -1,5 +1,5 @@
-import java.util.*;
-import java.util.Scanner;
+import java.util.*;  // this is for scanner
+// import java.util.Scanner;  // this is not meed for scanner 
 
 public class grades {
     

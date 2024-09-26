@@ -1,1 +1,1 @@
-z
+System.out.println(n);
